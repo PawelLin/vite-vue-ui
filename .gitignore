@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+vue3-pawel-ui
 
 # Editor directories and files
 .vscode/*
