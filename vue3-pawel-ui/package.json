@@ -1,0 +1,14 @@
+{
+    "name": "vue3-pawel-ui",
+    "version": "0.1.5",
+    "main": "pw-lib.es.js",
+    "module": "pw-lib.umd.js",
+    "exports": {
+      ".": {
+        "import": "./pw-lib.es.js",
+        "require": "./pw-lib.umd.js"
+      }
+    }
+  }
+  
+  

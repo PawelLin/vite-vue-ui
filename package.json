@@ -1,0 +1,32 @@
+{
+  "name": "vite-vue-ui",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lib:all": "vue-tsc --noEmit && vite build --mode=lib-all",
+    "lib:disperse": "vue-tsc --noEmit && vite build --mode=lib-disperse -- --no-clean",
+    "lib": "npm run lib:all && npm run lib:disperse",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-pawel-ui": "file:./vue3-pawel-ui"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^7.3.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-eslint-parser": "^8.3.0",
+    "vue-tsc": "^0.34.7"
+  }
+}
